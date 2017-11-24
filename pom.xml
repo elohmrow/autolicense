@@ -8,7 +8,7 @@
   </parent>
   <groupId>info.magnolia.services</groupId>
   <artifactId>autolicense</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Magnolia Auto-License Module</name>
   <description>Automatically installs Magnolia license</description>
@@ -22,7 +22,7 @@
     <connection>scm:git:ssh://git@git.magnolia-cms.com/services/autolicense.git</connection>
     <developerConnection>scm:git:ssh://git@git.magnolia-cms.com/services/autolicense.git</developerConnection>
     <url>https://git.magnolia-cms.com/projects/SERVICES/repos/autolicense</url>
-    <tag>autolicense-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
