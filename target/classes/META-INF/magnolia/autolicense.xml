@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>autolicense</name>
+  <displayName>autolicense Magnolia Module</displayName>
+  <description>This pom is used by all the Magnolia services incubating projects.</description>
+  <class>info.magnolia.services.AutoLicense</class>
+  <versionHandler>info.magnolia.services.setup.AutoLicenseVersionHandler</versionHandler>
+  <version>1.0-SNAPSHOT</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>5.4/*</version>
+    </dependency>
+
+    <!-- without this here, the license file doesn't get bootstrapped due to module loading order. -->
+    <dependency>
+      <name>enterprise</name>
+      <version>5.4/*</version>
+    </dependency>
+  </dependencies>
+</module>
